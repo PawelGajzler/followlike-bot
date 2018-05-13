@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Followlike-bot.App", "Followlike-bot.App\Followlike-bot.App.csproj", "{1B05E0FB-5277-4433-9028-C9D89CD56B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Followlike-bot.BotEngine", "Followlike-bot.BotEngine\Followlike-bot.BotEngine.csproj", "{0C098F50-694A-4A5D-8DB6-169116E75CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B05E0FB-5277-4433-9028-C9D89CD56B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B05E0FB-5277-4433-9028-C9D89CD56B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B05E0FB-5277-4433-9028-C9D89CD56B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B05E0FB-5277-4433-9028-C9D89CD56B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C098F50-694A-4A5D-8DB6-169116E75CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C098F50-694A-4A5D-8DB6-169116E75CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C098F50-694A-4A5D-8DB6-169116E75CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C098F50-694A-4A5D-8DB6-169116E75CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB5042CC-ABC5-45BC-8F54-55AC958080BA}
+	EndGlobalSection
+EndGlobal
