@@ -12,9 +12,10 @@
   See http://www.galasoft.ch/mvvm
 */
 
+using CommonServiceLocator;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
-using Microsoft.Practices.ServiceLocation;
+using Ninject;
 
 namespace Followlike_bot.App.ViewModel
 {
@@ -49,7 +50,7 @@ namespace Followlike_bot.App.ViewModel
         {
             get
             {
-                return ServiceLocator.Current.GetInstance<MainViewModel>();
+                return AppNinjectModule.GetKernel().Get<MainViewModel>();
             }
         }
         
